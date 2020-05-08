@@ -1,0 +1,382 @@
+@font-face{
+    font-family: MerriWeather;
+    src: url('Merriweather-Black.ttf');
+}
+
+h1{
+    font-family: Merriweather;
+}
+@font-face{
+    font-family: OpenSans;
+    src: url('OpenSans-Regular.ttf');
+}
+#open{
+    font-family: OpenSans;
+}
+header{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    bottom: 0%;
+    
+}
+#grey{
+    background-color: lightgray;
+}
+#main{
+    display: flex;
+}
+#div{
+    
+    width: 1335px;
+    height: 50px;
+    background-color: rgb(4, 108, 243);
+    text-align: left;
+    z-index: 1;
+}
+.facebook{
+   
+    padding: 15px 10px 0px 100px;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+}
+#twitter{
+    
+
+    padding: 15px 10px 0px 0px;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+}
+#instagram{
+    
+    padding: 15px 10px 0px 0px;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+}
+#whatsapp{
+   
+    padding: 15px 80px 0px 0px;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+}
+p{
+    display: inline;
+    color: white;
+    padding: 0px 50px 0px 0px;
+}
+button{
+   
+    padding: 10px 0px 0px 0px;
+    background-color: white;
+    border: 0px solid black;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    
+}
+#Logo{
+    display: inline-flex;
+    padding: 0px 350px 0px 100px;
+    width: 200px;
+    height: 80px;
+}
+#Size{
+    width: 1335px;
+    height: 85px;
+    background-color: white;
+    display: inline-flex;
+    
+}
+#Home{
+
+   
+    background-color: rgb(4, 108, 243);
+    height: 30px;
+    width: 60px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 0px 0px 2px 0px;
+}
+#About{
+    
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#About:hover{
+    background-color:rgb(4, 108, 243);;
+}
+#Intro{
+    background-color: white;
+    color: grey;
+
+}
+#SaylaniServices{
+    display: inline-flex;
+    background-color: white;
+    height: 30px;
+    width: 130px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#SaylaniServices:hover{
+    background-color: rgb(4, 108, 243);
+}
+#Media{
+    
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0px 0px 2px 0px;
+    
+}
+#Media:hover{
+    background-color: rgb(4, 108, 243);
+}
+#Pic{
+    width: 1335px;
+    height: 400px;
+
+}
+#Welfare{
+    width: 1335px;
+    height: 400px;
+}
+#Line{
+    text-align: center;
+    background-color: rgb(4, 108, 243);
+    color: white;
+    width: 1335px;
+    height: 30px;
+}
+#News{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-family: OpenSans;
+}
+#Blue{
+    color: rgb(4, 108, 243);
+}
+#Green{
+    color: green;
+}
+h1{
+    text-align: center;
+}
+#hands{
+    padding: 0px 0px 0px 0px;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+}
+#Para{
+    text-align: left;
+    padding: 0px 0px 0px 200px;
+    background-color: rgb(236, 234, 234);
+    color: grey;
+    height: 400px;
+    width: 1130px;
+    
+}
+
+#Dinner{
+
+    width: 40px;
+    height: 40px;
+    color: white;
+   
+    margin-left: 50%;
+    margin-right: 50%;
+}
+#Quantity{
+   height: 300px;
+   width: 1335px;
+   background-color: rgb(4, 108, 243);
+   text-align: center;
+
+}
+#Center{
+    display: inline-flex;
+    text-align: center;
+    padding: 18px 0px 0px 20px;
+    
+    border-spacing: 20px;
+    border: none;
+}
+#Rupees{
+    text-align: center;
+    color: white;
+}
+#Box{
+    display: inline-flex;
+    text-align: center;
+    padding: 18px 0px 0px 200px;
+    font-size: 20px;
+    border-spacing: 100px;
+    border: white;
+}
+/* #Bor{
+    text-align: center;
+    background-color: white;
+} */
+/* #Bev{
+    background-color: grey;
+} */
+#kid{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+#si{
+    
+    width: 40px;
+    height: 30px;
+}
+#is{
+    display: inline-flex;
+    padding: 0px 0px 0px 0px;
+    color: rgb(4, 108, 243);;
+}
+#las{
+    display: inline-flex;
+    width: 250px;
+    height: 50px;
+    background-color: lightgray;
+    border: 1px solid grey;
+}
+#Head{
+    color: rgb(4, 108, 243);;
+}
+#sal{
+    display: inline-flex;
+    width: 250px;
+    height: 50px;
+    display: inline-flex;
+    background-color: lightgray;
+    border: 1px solid grey
+}
+#scroll{
+    display: inline-flex;
+    width: 200px;
+    height: 250px;
+    overflow: scroll;
+    background-color: white;
+    color: rgb(4, 108, 243);;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+#Scroll{
+    margin: 10px auto;
+    padding: 0px 0px 0px 800px;
+}
+#Upcome{
+    display: inline;
+    font-size: 30px;
+    color: rgb(4, 108, 243);
+    font-family: 'Times New Roman', Times, serif;
+}
+#Gallery{
+    width: 260px;
+    height: 180px;
+}
+#footer{
+    
+    width: 1335;
+    height: 420px;
+    background-color: rgb(66, 66, 66);
+    border-spacing: 0px ;
+}
+#foot{
+    color: white;
+    text-align: left;
+
+}
+#fo{
+        
+        width: 1335px;
+        height: 30px;
+        background-color: rgb(4, 108, 243);;
+        text-align: left;
+        color: white;
+        font-size: 12px;
+    
+}
+/* @media only screen and (max-width: 600px){
+    div{
+        background-color: red;
+    }
+} */
+#Dinn{
+    
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(4, 108, 243);;
+}
+p{
+    font-family: Merriweather;
+    text-align: center;
+}
+#whi{
+    color: white;
+}
+#green{
+    color: rgb(95, 252, 89);
+}
+#box1{
+    text-align: center;
+    width: 360px;
+    height: 185px;
+    margin-right: 25px;
+    margin-left: 105px;
+    margin-bottom: 25px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 0 22px lightgray;
+    cursor: pointer;
+}
+h3{
+    font-family: Merriweather;
+    color: rgb(4, 108, 243);
+}
+#new{
+    margin-top: 30px;
+    width: 70px;
+}
+#box2{
+    text-align: center;
+    width: 360px;
+    height: 185px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 0 22px lightgray;
+    cursor: pointer;
+
+}
+#line{
+    display: inline-block;
+    color: green;
+    text-align: center;
+}
+#lineb{
+    display: inline-block;
+    color: lightgray;
+    text-align: center;
+}
+#hath{
+    text-align: center;
+}
